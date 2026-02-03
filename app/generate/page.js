@@ -89,7 +89,7 @@ const Generate = () => {
             <label className="mt-2 font-semibold text-gray-700">Step 3: Link URL</label>
             <input
               type="url"
-              placeholder="https://example.com"
+              placeholder="https://exam.com"
               value={item.link}
               onChange={(e) => handleChange(index, "link", e.target.value)}
               className="px-5 py-3 rounded-full outline-none focus:ring-2 focus:ring-pink-400"
